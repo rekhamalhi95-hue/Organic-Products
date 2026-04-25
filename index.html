@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>🌿 Organic Products Store</h1>
+  <title>Organic Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌿 Rekha Malhi 🌿</h1>
+
+<input type="text" id="search" placeholder="Search products..." onkeyup="searchProduct()">
+
+<div id="products" class="products"></div>
+
+<h2>🛒 Cart</h2>
+<ul id="cartList"></ul>
+<h3 id="total">Total: 0 Rs</h3>
+
+<button onclick="payNow()">Checkout</button>
+
+<!-- CHECKOUT FORM -->
+<div id="formBox" class="hidden">
+  <h2>Checkout</h2>
+
+  <input type="text" id="name" placeholder="Your Name"><br>
+  <input type="text" id="phone" placeholder="Phone Number"><br>
+  <input type="text" id="address" placeholder="Address"><br>
+  <input type="text" id="txid" placeholder="Transaction ID"><br>
+
+  <h3>Payment</h3>
+  <p>Send Easypaisa:</p>
+  <p><b>03180498038 (Rekha Devi)</b></p>
+
+  <p>Delivery: Umerkot | Charges: 200 Rs | Time: 1 week</p>
+
+  <button onclick="confirmOrder()">Confirm Order</button>
+  <button onclick="sendWhatsApp()">Send WhatsApp</button>
+</div>
+
+<p>📞 Contact: 03180498038</p>
+
+<script src="script.js"></script>
+</body>
+</html>

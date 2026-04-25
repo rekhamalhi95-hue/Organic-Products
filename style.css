@@ -1,0 +1,55 @@
+body{
+  font-family: Arial;
+  background: linear-gradient(to right,#d4fc79,#96e6a1);
+  text-align:center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#search {
+  padding: 10px;
+  width: 60%;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.products{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  width:200px;
+}
+
+img{
+  width:100%;
+  border-radius:10px;
+}
+
+button{
+  background:green;
+  color:white;
+  padding:8px;
+  border:none;
+  margin:5px;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+.hidden{
+  display:none;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+}
